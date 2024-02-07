@@ -1,0 +1,202 @@
+/*General*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        
+    }
+/*Shared through all pages*/
+    /*HEADER*/
+        header{
+            padding:5px;
+            background-color: #a4b4a6;
+            height: 150px;
+            color: #003608;
+            }
+        .pageTitle{
+            color: 003608;
+            font-family: 'Noto Sans', sans-serif;
+            size: 10px;
+            text-align: center;
+            padding: 2px;
+            display: inline-block;
+        }
+
+        nav{
+            display: inline-flex;
+            background-color: #a4b4a6;
+            width: 50%;
+            text-decoration: none;
+            position: sticky;
+            top: 20px;
+            display: inline;
+        }   
+        .menu{
+            background-color: #a4b4a6;
+            align-content: center;
+            left: 100px;
+            right: 200px;
+        }
+      
+        .menu li{
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu li a{ 
+            padding: 20px;
+            color: #003608;
+            margin: 10px;
+            text-decoration: none;
+            text-align: center;
+
+        }
+      
+        
+        .menu li a:hover{
+            color: #cef9d4;
+            border-radius: 15px;
+            background-color: #828b92;
+        }
+       
+        .menu li a:visited{
+            color: rgb(78, 50, 50);
+            background-color: #0ce410;
+        }
+
+    /*FOOTER*/ 
+        footer{
+            background-color: #002400;
+
+        }
+        .fCont{
+            text-align: center;
+            color: #C9D4B9;
+        }
+
+/*Content*/
+    body{
+        background-color: rgba(0, 0, 0, 10);
+        background-image:url("/media/testgreencalm.jpg");        
+        background-size: cover;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    main{
+        
+       width: 1800px;
+       height: 2000px;
+       /*padding: 0.5rem;*/
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       align-content: center;
+       flex-direction: row:
+       
+    }
+    
+
+    
+    h2{
+        line-height: 5;
+        margin: 5%;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    h3{
+        line-height: 3;
+        margin: 5%;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .texto{
+        line-height: 2;
+        margin: 3%;
+    }
+    .contenidoLeible{
+        background-color: hsla(127, 10%, 67%, 0.438);
+        margin: 5%;
+        padding: 5%;
+        display: flexbox;
+    }
+    .ExtractoNoticia{
+        margin: 4%;
+        padding: 0.5%;
+        border: #003608 ;
+       
+    }
+    .Videonoticias{
+        /*La verdad que ni idea me queda o sepaardo de todo niiii idea lo odio pensando en sacar el video pero tiene sentido una página de noticias con videos: la gente no lee */
+        border: 1px black;
+        margin: 15%;
+        padding: 5px;
+    }
+    .imagesjornadas {
+        width: 18%;
+        margin: 5%;
+    }
+    /*página contacto*/
+    #formulario{
+        align-items: center;
+        margin: 15%;
+        border: 2;
+        background-color: #003608;
+        color: #a4b4a6;
+    }
+    #recuadro{
+        padding: 6%;
+    }
+    .botonesenvio{
+        align-items: center;
+    }
+   
+    
+    /*página noticia?*/
+    .parrafo{
+        padding: 8px;
+        width: 500px;
+        height: 500px;
+        overflow: auto;
+        margin: 2%;
+        /*display: inline-block;*/
+        background-color: rgba(249, 249, 249, 0.5);
+    
+       
+    }
+    .imagen{
+        padding: 15px;
+        width: 45%;
+        height: 500px;
+        overflow: hidden;
+        margin: 2%;
+        display: inline-block;
+        left: auto;
+    
+       
+    }
+    /*página Eventos*/
+    .accionesEventos{
+        display: inline-block;
+        margin: 5px;
+        
+    }
+    /*página Emprendimientos*/
+        .galeriaEmprendedora{
+        width: 20000px;
+        height: max-content;
+        background-color: #003608;
+        display: flexbox;
+        justify-content: row;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+
+        .emprendimientos{
+            display:inline-flex;
+            width: 250px;
+        }
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <link rel="stylesheet" href="../css/style.css">
+    <header>
+        <img src="../media/logorec1.jpg" alt="logo reciclaje" width="40px">
+        <h1 class="pageTitle">ReciCreable</h1>
+        
+        <br>
+        <nav>
+            <ul class="menu">
+                <li class="a"> <a href="../index.html">Home</a></li>
+                <li class="a"> <a href="./jornadasV.html">Jornadas Verdes</a></li>
+                <li> <a href="./emprendimientosV.html">Emprendimientos Verdes</a></li>
+                <li> <a href="./noticiasV.html">Noticias Verdes</a></li>
+                <li> <a href="./contacto.html">Contacto Verde</a></li>
+            </ul>
+        </nav>
+        <br>
+        <hr>
+        <br>
+    </header>
+    <main>
+        <h2>Dejanos tu consulta 📨</h2>
+        <form id="formulario" action="Formulario">
+        
+        <fieldset id="recuadro">
+          
+            <div>
+                <br>
+                <label for="Nombre">Nombre y Apellido:</label>
+                <br>
+                <input type="text" name="Nombre" maxlength="50">
+            </div>
+            <div>
+                <br>
+                <label for="Email">Email:</label>
+                <br>
+                <input type="email" name="Email" maxlength="50" required>
+            </div>
+            <div>
+                
+                <br>
+                <label for="Tema">Tema</label>
+                <br>
+                <input type="radio"name="Tema" value="Emprendimiento">  Nuevo Emprendimiento  
+                <input type="radio"name="Tema" value="Proponer">  Proponer Jonada  
+                <input type="radio"name="Tema" value="Anotarme">  Anotarme a Jornada  
+                <input type="radio"name="Tema" value="Otro">  Otro  
+            </div>
+            <div>
+                <br>
+                <label for="Consulta">Consulta:</label>
+                <br>
+                <!-- busqué cómo hacerlo...no lo vimos en clase no??-->
+                <textarea id="Consulta" name="Consulta" rows="5" cols="40" required></textarea>
+            </div>
+             <!-- quería ponerlos centrados debro del cuadrado pero no sé cómo-->
+            <div class="botonesenvio">
+                <br>
+                <label for="Urgente">  Marcar como consulta Urgente</label>
+                <input type="checkbox" name="Urgente">
+            </div>
+            
+            <br>
+            <hr>
+        
+            <input type="submit"value="Enviar">
+            <input type="reset"value="Resetear">
+        
+        </fieldset>
+    </form></main>
+    <footer>
+        bye 😶‍🌫️
+    </footer>
+</body>
+</html>
